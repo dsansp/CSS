@@ -29,7 +29,10 @@ body{
 .icon i {
     font-size: 2em;
 }
-.contact-hours-wrapped{
+.left-colum >.contact-hours-wrapped{
+    display: grid;
+    grid-template-columns:repeat(0,1fr) 1fr;
+    grid-gap: 10px;
     color: royalblue;
     
 }
@@ -37,6 +40,8 @@ body{
     color: seagreen;
 
 }
+
 .adress-wrapped{
     color:red;
+    
 }
