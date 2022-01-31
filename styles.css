@@ -1,0 +1,42 @@
+/*common styles*/
+body{
+    margin: 0px;
+}
+/* Common nav style */
+.navigation-wrapper{
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+/*flexbox container*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*padding*/
+    padding: 60px 100px;
+   /* padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;*/
+}
+.left-colum{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin-right: 15px;
+}
+.icon i {
+    font-size: 2em;
+}
+.contact-hours-wrapped{
+    color: royalblue;
+    
+}
+.nav-link{
+    color: seagreen;
+
+}
+.adress-wrapped{
+    color:red;
+}
