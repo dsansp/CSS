@@ -20,27 +20,27 @@ body{
     padding-left: 100px;
     padding-right: 100px;*/
 }
-.left-colum{
+.navigation-wrapper> .left-column{
     display: flex;
     align-items: center;
 }
-.icon{
+.navigation-wrapper> .left-column> .icon{
     margin-right: 15px;
 }
-.icon i {
+.navigation-wrapper> .left-column> .icon i {
     font-size: 2em;
 }
-.left-colum >.contact-hours-wrapped{
+.left-column >.contact-hours-wrapped{
     display: grid;
     grid-template-columns:repeat(0,1fr) 1fr;
     grid-gap: 10px;
-    color: royalblue;
+    color: white;
     
 }
-.contact-hours-wrapped>.hours{
+.navigation-wrapper> .contact-hours-wrapped>.hours{
     font-family: 'Ubuntu Condensed', sans-serif;
 }
-.nav-link a {
+.links-wrapper> .nav-link a {
     font-family: 'Ubuntu Condensed', sans-serif;
     color: white;
 }
@@ -49,12 +49,12 @@ body{
 
 } */
 
-.adress-wrapped{
-    color:red;
+.navigation-wrapper> .rigth-column> .adress-wrapped{
+    color:white;
     font-family: 'Ubuntu Condensed', sans-serif;
     
 }
-.banner-image img{
+.navigation-wrapper> .center-column> .banner-image img{
     width:216px;
     height: 100%;
   
