@@ -20,6 +20,7 @@ body{
     padding-left: 100px;
     padding-right: 100px;*/
 }
+/*left colum*/
 .navigation-wrapper> .left-column{
     display: flex;
     align-items: center;
@@ -48,12 +49,41 @@ body{
     color: seagreen;
 
 } */
-
+/*rigth colum*/
+.navigation-wrapper> .rigth-column{
+    display: flex;
+    align-items: center;
+}
 .navigation-wrapper> .rigth-column> .adress-wrapped{
     color:white;
     font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
     
 }
+.navigation-wrapper> .rigth-column> .adress-wrapped a{
+color: #858585;
+text-decoration: none;
+font-size: 0.9em;
+transition: 0.5s;
+}
+.navigation-wrapper> .rigth-column> .adress-wrapped a:hover{
+    color: #cea135;
+   
+    }
+.navigation-wrapper> .rigth-column> .contact-icon{
+    margin-left: 15px;
+    font-size: 2em;
+}
+.navigation-wrapper> .rigth-column> .contact-icon a{
+    color: #cbcbcb;
+    transition: 0.5s;
+   
+}
+.navigation-wrapper> .rigth-column> .contact-icon a:hover{
+    color: #cea135;
+   
+}
+/*center colum*/
 .navigation-wrapper> .center-column{
     display: grid;
     grid-template-columns: 1fr;
@@ -73,4 +103,20 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.links-wrapper> .nav-link{
+    width: 70px;
+    text-align: center;
+}
+.links-wrapper> .nav-link a{
+    font-family: "Ubuntu Condensed", sans-sherif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+.links-wrapper> .nav-link a:hover{
+color: #cea135;
+letter-spacing: 2px;
+
 }
