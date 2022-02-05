@@ -1,8 +1,3 @@
-/*common styles*/
-body{
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
-}
 /* Common nav style */
 .navigation-wrapper{
     height: 190px;
@@ -31,15 +26,17 @@ body{
 .navigation-wrapper> .left-column> .icon i {
     font-size: 2em;
 }
-.left-column >.contact-hours-wrapped{
+.left-column >.left-column> .contact-hours-wrapped{
     display: grid;
     grid-template-columns:repeat(0,1fr) 1fr;
     grid-gap: 10px;
     color: white;
     
 }
-.navigation-wrapper> .contact-hours-wrapped>.hours{
+.navigation-wrapper> .left-column> .contact-hours-wrapped>.hours{
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: 0.8em;
 }
 .links-wrapper> .nav-link a {
     font-family: 'Ubuntu Condensed', sans-serif;
