@@ -35,7 +35,7 @@
  justify-content: center;
  align-items: center;
  font-family: "Ubuntu Condensed", sans-serif;
-
+box-shadow: inset 0px -26px 79px -8px rgba(0,0,0, 0.58);
 }
 .features-section > .colums-wrapper{
     width: 1000px;
@@ -53,4 +53,21 @@
 }
 .features-section> .colums-wrapper> .colum:hover{
     border-bottom: 5px solid #11122b;
+}
+.features-section> .colums-wrapper> .colum :nth-child(1){
+font-size: 3em;
+
+}
+.features-section> .colums-wrapper> .colum :nth-child(2){
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+ .features-section> .colums-wrapper> .colum :nth-child(2):hover{
+letter-spacing: 1px;
+    
+}
+.features-section> .colums-wrapper> .colum :nth-child(3){
+letter-spacing: 2px;
 }
