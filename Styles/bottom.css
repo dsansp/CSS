@@ -1,0 +1,26 @@
+.botom-wrapper{
+    height: 490px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    align-items: center;
+}
+.botom-wrapper> .logo-botom img{
+    width:216px;
+    height: 100%;
+}
+
+.botom-wrapper> .logo-botom{
+    display: flex;
+    justify-content: center;
+}
+.botom-wrapper> .bottom-hours{
+    width: 200px;
+    color: white;
+    justify-items: center;
+    align-items: center;
+}
+/* .botom-wrapper> .bottom-hours>
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+} */
