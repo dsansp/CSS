@@ -1,5 +1,5 @@
 .botom-wrapper{
-    height: 400px;
+    height: 450px;
     background-color: #11122b;
     color: #cbcbcb;
     font-family: "Ubuntu Condensed", sans-serif;
@@ -20,14 +20,48 @@
     display: flex;
     justify-content: center;
 }
-.botom-wrapper> .bottom-hours{
-    width: 200px;
+.botom-wrapper> .bottom-hours span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    /* width: 200px;
     color: white;
     justify-items: center;
-    align-items: center;
+    align-items: center; */
 }
-/* .botom-wrapper> .bottom-hours>
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: #858585;
+ .botom-wrapper> .bottom-hours> .hours{
+    /* font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585; */
     font-size: 0.8em;
-} */
+    color: #cea135;
+    text-transform: uppercase;
+} 
+.botom-wrapper> .links-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+.botom-wrapper> .social-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+}
+.botom-wrapper> .social-wrapper a{
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5;
+}
+.botom-wrapper> .social-wrapper a:hover{
+    color: #cea135;
+    
+}
+.bottom-wrapper> .copyrigth-wrapper{
+    margin-top: -2px;
+    margin-bottom: 40px;
+    font-size: 0.7em;
+    color: #858585;
+
+}
