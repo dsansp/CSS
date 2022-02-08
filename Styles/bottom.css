@@ -1,12 +1,19 @@
 .botom-wrapper{
-    height: 490px;
+    height: 400px;
     background-color: #11122b;
     color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -4px;
 }
 .botom-wrapper> .logo-botom img{
     width:216px;
     height: 100%;
+    /* filter: brightness(50%); */
+    opacity: 0.5;
 }
 
 .botom-wrapper> .logo-botom{
