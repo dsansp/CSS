@@ -3,3 +3,9 @@
     height: 100px;
     width: 100%;
 }
+.anchor-links{
+    text-decoration: none;
+}
+.anchor-links:focus{
+    text-decoration: none;
+}
