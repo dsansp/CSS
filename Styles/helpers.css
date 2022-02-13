@@ -9,3 +9,8 @@
 .anchor-links:focus{
     text-decoration: none;
 }
+.anchor-links h1::after{
+    font-family: "Font Awesome 5 Free";
+    content: " \f0c1";
+    font-weight: 900;
+}
