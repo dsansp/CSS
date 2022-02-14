@@ -1,6 +1,11 @@
 /*helper*/
 .spacer60{
-    height: 100px;
+    height: 60px;
+    width: 100%;
+}
+.spacer10{
+    height: 10
+    px;
     width: 100%;
 }
 .anchor-links{
